@@ -1,11 +1,12 @@
 import { Button } from "flowbite-react";
+import RoutesApp from "./Routes/RoutesApp";
+import '../src/i18n/i18n';
 
 function App() {
   return (
-    <>
-  <h1>Portfolio 2.0</h1>
-  <Button onClick={() => alert("test ok")}>Click me</Button>
-    </>
+    <div>
+      <RoutesApp/>
+    </div>
   )
 }
 
