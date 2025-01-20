@@ -4,7 +4,7 @@ function App() {
   return (
     <>
   <h1>Portfolio 2.0</h1>
-  <Button>Click me</Button>
+  <Button onClick={() => alert("test ok")}>Click me</Button>
     </>
   )
 }
