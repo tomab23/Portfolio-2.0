@@ -10,26 +10,32 @@ module.exports = {
     "./index.html", "./src/**/*.{js,ts,jsx,tsx}",
     flowbite.content(),
   ],
-  extend: {
-    colors: {
-      "dark": {
-        light: "#475569",
-        DEFAULT: "#334158",
-        dark: "#1e293b"
-      },
-      "light": {
-        light: "",
-        DEFAULT: "	#F8F8FF",
-        dark: ""
+  theme : {
+    extend: {
+      colors: {
+        "dark": {
+          light: "#475569",
+          DEFAULT: "#334158",
+          dark: "#1e293b"
+        },
+        "light": {
+          light: "",
+          DEFAULT: "#F8F8FF",
+          dark: ""
+        },
+        "available" : {
+          light: "#4ade80",
+          dark: "#15803d"
+        }
       },
     },
-    // screens:{
-    //   'sm':'480px',
-    //   'md':'768px',
-    //   'lg':'976px',
-    //   'xl':'1440px',
-    //   '2xl':'1920px',
-    // }
+          //   screens:{
+      //   'sm':'480px',
+      //   'md':'768px',
+      //   'lg':'976px',
+      //   'xl':'1440px',
+      //   '2xl':'1920px',
+      // },
   },
   plugins: [
     // ...

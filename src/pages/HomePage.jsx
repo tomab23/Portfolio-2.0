@@ -9,7 +9,7 @@ const HomePage = () => {
     const { t } = useTranslation();
 
   return (
-    <div className="dark:bg-slate-700">
+    <div className="dark:bg-slate-700 bg-light">
       <Header />
       <h1>Home page - Portfolio 2.0</h1>
       <h2>{t("TEST")}</h2>
