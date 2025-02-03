@@ -4,7 +4,7 @@ import '../src/i18n/i18n';
 
 function App() {
   return (
-    <div>
+    <div className="bg-light-light dark:bg-dark">
       <RoutesApp/>
     </div>
   )
