@@ -1,8 +1,12 @@
 import React from 'react'
+import LinksAbout from './LinksAbout'
 
 const AboutMe = () => {
   return (
-    <div>AboutMe</div>
+    <div className='flex flex-col'>
+      <p>AboutMe</p>
+      <LinksAbout />
+    </div>
   )
 }
 

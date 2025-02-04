@@ -1,4 +1,8 @@
 {
   "FOOTER": "Développé par Thomas Bartier",
-  "TEST": "TEST-FR"
+  "TEST": "TEST-FR",
+  "TITLE": {
+    "SKILLS": "Compétences"
+  },
+  "TOTOP": "Haut de page"
 }

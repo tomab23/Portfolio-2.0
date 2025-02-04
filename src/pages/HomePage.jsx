@@ -8,25 +8,29 @@ import Skills from "../components/skills/Skills";
 import LastProjects from "../components/projects/LastProjects";
 import ContactMe from "../components/conatct/ContactMe";
 import Experiences from "../components/experiences/Experiences";
-import TopToScroll from "../components/TopToScroll";
+import ScrollToTop from "../components/buttons/ScrollToTop";
+import CustomTitle from "../components/custom/CustomTitle";
 
 const HomePage = () => {
     const navigate = useNavigate();
     const { t } = useTranslation();
 
   return (
-    <div className="text-center">
+    <div>
       <Header />
-      <h1>Home page - Portfolio 2.0</h1>
-      <h2>{t("TEST")}</h2>
-      <Button onClick={() => navigate("/cv")}>cv page</Button>
+      <body className="">
+      <CustomTitle className={"text-center text-4xl mt-5 mb-10"}>
+        Bienvenue !
+      </CustomTitle>
+      <h2>{t("TEST")}</h2> <br />
 
       <AboutMe />
       <Skills />
       <LastProjects />
       <Experiences />
       <ContactMe />
-      <TopToScroll />
+      <ScrollToTop />
+      </body>
       <Footer />
     </div>
   );
