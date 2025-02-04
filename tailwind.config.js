@@ -14,6 +14,7 @@ module.exports = {
     extend: {
       fontFamily: {
         devgothic: ["devgothic","sans-serif"],
+        goodMatcha: ["GoodMatcha","sans-serif"],
       },
       colors: {
         "dark": {
