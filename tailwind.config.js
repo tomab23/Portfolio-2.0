@@ -12,6 +12,9 @@ module.exports = {
   ],
   theme : {
     extend: {
+      fontFamily: {
+        'custom': ['SMACK', 'Arial', 'sans-serif']
+      },
       colors: {
         "dark": {
           light: "#475569",

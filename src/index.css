@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
+
+@font-face {
+    font-family: 'SMACK';
+    src: local('SMACK'), url(./fonts/SMACK.ttf) format('ttf');
+  }
+
+
 @tailwind utilities;

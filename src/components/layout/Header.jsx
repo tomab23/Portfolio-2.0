@@ -13,6 +13,8 @@ import { useNavigate } from "react-router";
 const Header = ({ home }) => {
   const navigate = useNavigate();
 
+  const text = "<Thomas Bartier />";
+
   return (
     <Navbar fluid>
       <NavbarBrand href="">
@@ -20,7 +22,7 @@ const Header = ({ home }) => {
           onClick={() => navigate("/")}
           className="self-center whitespace-nowrap text-xl max-sm:text-sm font-semibold hover:scale-y-125 dark:text-white"
         >
-          THOMAS BARTIER
+          {text}
         </h1>
       </NavbarBrand>
       <div className="flex md:order-2">

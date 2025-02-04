@@ -1,6 +1,9 @@
 
 
 const CustomTitle = ({ children, className }) => {
+
+  // const text = "<" + children +" />";
+
   return (
     <div>
       <h1 className={`font-extrabold leading-none tracking-tight text-gray-900  dark:text-white ${className}`}>
