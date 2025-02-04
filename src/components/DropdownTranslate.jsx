@@ -17,10 +17,10 @@ const DropdownTranslate = () => {
 
   return (
     <Dropdown dismissOnClick={true} label={<Globe className="h-4 w-4" />} size="sm">
-      <DropdownItem as="a" href="#" onClick={langueFr}>
+      <DropdownItem onClick={langueFr}>
         Français
       </DropdownItem>
-      <DropdownItem as="a" href="#" onClick={langueEn}>
+      <DropdownItem onClick={langueEn}>
         English
       </DropdownItem>
     </Dropdown>
