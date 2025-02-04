@@ -10,7 +10,7 @@ import {
 import DropdownTranslate from "../DropdownTranslate";
 import { useNavigate } from "react-router";
 
-const Header = () => {
+const Header = ({ home }) => {
   const navigate = useNavigate();
 
   return (
@@ -28,15 +28,17 @@ const Header = () => {
           <DropdownTranslate />
           <DarkThemeToggle />
         </div>
-        <NavbarToggle />
+        {home && <NavbarToggle />}
       </div>
-      <NavbarCollapse>
-        <NavbarLink href="#">About me</NavbarLink>
-        <NavbarLink href="#">skills</NavbarLink>
-        <NavbarLink href="#">Projects</NavbarLink>
-        <NavbarLink href="#">Experiences</NavbarLink>
-        <NavbarLink href="#">Contact</NavbarLink>
-      </NavbarCollapse>
+      {home && (
+        <NavbarCollapse>
+          <NavbarLink href="#about">About me</NavbarLink>
+          <NavbarLink href="#skills">skills</NavbarLink>
+          <NavbarLink href="#projects">Projects</NavbarLink>
+          <NavbarLink href="#exp">Experiences</NavbarLink>
+          <NavbarLink href="#contact">Contact</NavbarLink>
+        </NavbarCollapse>
+      )}
     </Navbar>
   );
 };

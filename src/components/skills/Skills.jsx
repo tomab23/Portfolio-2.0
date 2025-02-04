@@ -7,7 +7,7 @@ const Skills = () => {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <div id="skills">
       <CustomTitle className={"text-3xl mt-5 mb-10"}>{t("TITLE.SKILLS")}</CustomTitle>
     </div>
   )

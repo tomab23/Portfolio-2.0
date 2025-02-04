@@ -17,7 +17,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <Header />
+      <Header home />
       <div className="">
       <CustomTitle className={"text-center text-4xl mt-5 mb-10"}>
         {t("WELCOME")} !
