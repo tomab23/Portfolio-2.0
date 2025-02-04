@@ -13,7 +13,7 @@ module.exports = {
   theme : {
     extend: {
       fontFamily: {
-        'custom': ['SMACK', 'Arial', 'sans-serif']
+        devgothic: ["devgothic","sans-serif"],
       },
       colors: {
         "dark": {

@@ -17,10 +17,10 @@ const Header = ({ home }) => {
 
   return (
     <Navbar fluid>
-      <NavbarBrand href="">
+      <NavbarBrand href="" className="font-devgothic">
         <h1
           onClick={() => navigate("/")}
-          className="self-center whitespace-nowrap text-xl max-sm:text-sm font-semibold hover:scale-y-125 dark:text-white"
+          className="self-center whitespace-nowrap text-3xl max-lg:text-xl max-md:text-2xl font-semibold hover:scale-y-125 dark:text-white"
         >
           {text}
         </h1>
@@ -33,12 +33,12 @@ const Header = ({ home }) => {
         {home && <NavbarToggle />}
       </div>
       {home && (
-        <NavbarCollapse>
-          <NavbarLink href="#about">About me</NavbarLink>
-          <NavbarLink href="#skills">skills</NavbarLink>
-          <NavbarLink href="#projects">Projects</NavbarLink>
-          <NavbarLink href="#exp">Experiences</NavbarLink>
-          <NavbarLink href="#contact">Contact</NavbarLink>
+        <NavbarCollapse className="font-devgothic">
+          <NavbarLink className="text-2xl max-lg:text-xl" href="#about">About me</NavbarLink>
+          <NavbarLink className="text-2xl max-lg:text-xl" href="#skills">skills</NavbarLink>
+          <NavbarLink className="text-2xl max-lg:text-xl" href="#projects">Projects</NavbarLink>
+          <NavbarLink className="text-2xl max-lg:text-xl" href="#exp">Experiences</NavbarLink>
+          <NavbarLink className="text-2xl max-lg:text-xl" href="#contact">Contact</NavbarLink>
         </NavbarCollapse>
       )}
     </Navbar>
