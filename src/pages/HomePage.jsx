@@ -8,7 +8,7 @@ import Skills from "../components/skills/Skills";
 import LastProjects from "../components/projects/LastProjects";
 import ContactMe from "../components/conatct/ContactMe";
 import Experiences from "../components/experiences/Experiences";
-import ScrollToTop from "../components/buttons/ScrollToTop";
+import ScrollToTop from "../components/custom/buttons/ScrollToTop";
 import CustomTitle from "../components/custom/CustomTitle";
 
 const HomePage = () => {

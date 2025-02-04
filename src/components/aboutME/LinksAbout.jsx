@@ -1,5 +1,5 @@
 import React from 'react'
-import CustomLinkButton from '../custom/CustomLinkButton'
+import CustomLinkButton from '../custom/buttons/CustomLinkButton'
 
 const LinksAbout = () => {
   return (
@@ -11,7 +11,7 @@ const LinksAbout = () => {
       {/* Github */}
       <CustomLinkButton title={"GitHub"} link={true} page={"https://github.com/tomab23"} classname={"bg-[#171515] dark:bg-[#171515]"} />
       {/* Mes Projets */}
-      <CustomLinkButton title={"Mes projets"} link={false} page={"projets"} classname={"bg-gray-500 dark:bg-gray-500"} />
+      <CustomLinkButton title={"Mes projets"} link={false} page={"projets"} classname={"bg-teal-600 dark:bg-teal-600"} />
     </div>
   )
 }
