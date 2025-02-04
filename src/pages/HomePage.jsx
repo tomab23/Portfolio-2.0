@@ -18,9 +18,9 @@ const HomePage = () => {
   return (
     <div>
       <Header />
-      <body className="">
+      <div className="">
       <CustomTitle className={"text-center text-4xl mt-5 mb-10"}>
-        Bienvenue !
+        {t("WELCOME")} !
       </CustomTitle>
       <h2>{t("TEST")}</h2> <br />
 
@@ -30,7 +30,7 @@ const HomePage = () => {
       <Experiences />
       <ContactMe />
       <ScrollToTop />
-      </body>
+      </div>
       <Footer />
     </div>
   );
