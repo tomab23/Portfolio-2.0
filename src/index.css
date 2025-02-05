@@ -4,13 +4,13 @@
 
 @font-face {
     font-family: "devgothic";
-    src: url("../public/fonts/devgothic.TTF");
+    src: url("/fonts/devgothic.TTF");
     font-weight: 900;
 }
 
 @font-face {
     font-family: "GoodMatcha";
-    src: url("../public/fonts/GoodMatcha.otf");
+    src: url("/fonts/GoodMatcha.otf");
     font-weight: 900;
 }
 
