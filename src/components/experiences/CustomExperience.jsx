@@ -23,12 +23,12 @@ const CustomExperience = ({ children, date, title, latest }) => {
         <Timeline.Content>
           <Timeline.Title>
             {title}
-            {latest && (
+            {latest && 
               <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
                 {/* {t("experience.latest")} */}
-                derniere exp
+                Dernière
               </span>
-            )}
+            }
           </Timeline.Title>
           <Timeline.Time>{date}</Timeline.Time>
           <Timeline.Body>{children}</Timeline.Body>

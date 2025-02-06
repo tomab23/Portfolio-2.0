@@ -11,13 +11,13 @@ const LastProjects = () => {
       </CustomTitle>
 
 {/* LAST PROJECTS */}
-      <div className="flex flex-wrap gap-5">
+      <div className="flex flex-wrap gap-5 max-sm:justify-center">
       <CardProject />
       <CardProject />
       <CardProject />
       </div>
 
-      <CustomLinkButton title={"Voir tout mes projets"} page={"projets"} classname={"self-start"} />
+      <CustomLinkButton title={"Voir tout mes projets"} page={"projets"} classname={"self-start bg-teal-600 dark:bg-teal-600"} />
     </div>
   )
 }
