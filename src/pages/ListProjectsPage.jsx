@@ -9,7 +9,7 @@ const ListProjectsPage = () => {
         <Header />
         <BackButton />
         <CustomTitle className={"text-center"}>
-            MES PROJETS
+            MES PROJETS (0)
         </CustomTitle>
     </div>
   )

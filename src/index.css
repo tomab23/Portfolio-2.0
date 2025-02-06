@@ -14,8 +14,6 @@
     font-weight: 900;
 }
 
-
-
 @tailwind utilities;
 
 @layer components {
@@ -24,3 +22,19 @@
         @apply text-3xl pt-2;
         }
     }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #94a3b8;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #475569;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #1e293b;
+      }
