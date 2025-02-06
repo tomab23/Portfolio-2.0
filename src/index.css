@@ -17,3 +17,10 @@
 
 
 @tailwind utilities;
+
+@layer components {
+    /* FOR TITLE CATEGORY HOME PAGE */
+      .title {
+        @apply text-3xl pt-2;
+        }
+    }

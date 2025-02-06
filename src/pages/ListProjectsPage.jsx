@@ -3,7 +3,7 @@ import CustomTitle from "../components/custom/CustomTitle"
 import Header from "../components/layout/Header"
 
 
-const ProjectsPage = () => {
+const ListProjectsPage = () => {
   return (
     <div>
         <Header />
@@ -15,4 +15,4 @@ const ProjectsPage = () => {
   )
 }
 
-export default ProjectsPage
+export default ListProjectsPage

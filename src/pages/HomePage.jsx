@@ -16,14 +16,15 @@ const HomePage = () => {
     const { t } = useTranslation();
 
   return (
-    <div>
+    <div className="flex flex-col">
       <Header home />
-      <div className="">
+      <h2 className="absolute mt-16 ml-5 dark:text-light">{t("TEST")}</h2>
+      {/* BODY */}
+      {/* <div className="flex justify-center"> */}
+      <div className="flex flex-col  2xl:w-[70vw] max-xl:w-[92vw] self-center gap-10">
       <CustomTitle className={"text-center text-4xl mt-5 mb-10"}>
         {t("WELCOME")}
       </CustomTitle>
-      <h2>{t("TEST")}</h2> <br />
-
       <AboutMe />
       <Skills />
       <LastProjects />
@@ -31,6 +32,7 @@ const HomePage = () => {
       <ContactMe />
       <ScrollToTop />
       </div>
+      {/* </div> */}
       <Footer />
     </div>
   );

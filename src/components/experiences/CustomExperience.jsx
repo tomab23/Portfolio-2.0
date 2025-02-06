@@ -13,7 +13,7 @@ const CustomExperience = ({ children, date, title, latest }) => {
           theme={{
             marker: {
               icon: {
-                base: "h-4 w-4 text-cyan-700 dark:text-cyan-200",
+                base: "h-4 w-4 text-cyan-700 dark:text-cyan-100",
                 wrapper:
                   "absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-cyan-100 dark:bg-cyan-900",
               },

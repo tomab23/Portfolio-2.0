@@ -5,12 +5,12 @@ import MyExperiences from "./MyExperiences"
 
 const Experiences = () => {
   return (
-    <div className="ml-5">
-      <CustomTitle className={"text-3xl my-5"}>
+    <div id="exp">
+      <CustomTitle className={"title"}>
         Compétences
       </CustomTitle>
 
-      <MyExperiences /><br /><br /><br />
+      <MyExperiences />
 
 
     </div>

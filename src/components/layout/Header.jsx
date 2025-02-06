@@ -25,7 +25,7 @@ const Header = ({ home }) => {
           {text}
         </h1>
       </NavbarBrand>
-      <div className="flex md:order-2">
+      <div className="flex md:order-2 ">
         <div className="flex gap-5 max-sm:gap-2 items-center">
           <DropdownTranslate />
           <DarkThemeToggle />
