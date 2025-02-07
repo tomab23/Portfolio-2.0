@@ -5,32 +5,36 @@ import BagdeProject from "./BagdeProject";
 import { useNavigate } from "react-router";
 import { useTranslation } from "react-i18next";
 
-const CardProject = () => {
+const CardProject = ({ project }) => {
 
-    const tech = ["React.js", "Tailwind", "Javascript"]
-    const name = "Portofolio 2.0";
+    // const tech = ["React.js", "Tailwind", "Javascript"]
+    // const name = "Portofolio 2.0";
 
     const navigate = useNavigate();
     const { t } = useTranslation();
 
     const goProject = () => {
-      navigate(`/project/${name}`);
+      navigate(`/project/${project.name}`, {
+        state : {
+          id: project.id,
+        }
+      });
     };
   return (
     <Card
     className="max-w-xs hover:rotate-1"
     imgAlt="Meaningful alt text for an image that is not purely decorative"
-    imgSrc={test}
+    imgSrc={project.imgs[0]}
   >
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      {name}
+      {project.name}
     </h5>
     <p className="font-normal text-gray-700 dark:text-gray-400">
-      Plus d'informations sur se portfolio
+     {project.resume}
     </p>
     {/* BADGE */}
     <div className="self-start flex gap-2">
-    {tech.map((tech) => (
+    {project.badge.map((tech) => (
               <BagdeProject key={tech} name={tech} />
             ))}
     </div>

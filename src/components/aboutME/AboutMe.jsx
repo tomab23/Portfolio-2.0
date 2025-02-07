@@ -11,6 +11,7 @@ const AboutMe = () => {
       <span>illustration Développeur by UnDraw</span>
       <img src="/src/assets/illustrations/dev2.svg" alt="illustration Développeur by Storyset" className='h-60 w-60'/>
       <span>illustration Développeur by Storyset</span>
+      <img src="/src/assets/illustrations/dev2alt.svg" alt="illustration Développeur by Storyset" className='h-60 w-60'/>
       </div>
       <LinksAbout />
     </div>
