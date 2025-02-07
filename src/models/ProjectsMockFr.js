@@ -113,7 +113,7 @@ export const ProjectsMockFr = [
     {
         id: 7,
         name: "Portfolio",
-        resume: "Plus d'informations sur se portfolio",
+        resume: "Plus d'informations sur mon premier portfolio",
         badge: ["React js", "Tailwind", "Javascript"],
         tech: ["React js", "Tailwindcss", "Javascript", "I18Next"],
         outil:["Visual Studio Code"],

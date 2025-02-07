@@ -111,7 +111,7 @@ export const ProjectsMockEn = [
     {
         id: 7,
         name: "Portfolio",
-        resume: "More information on the portfolio",
+        resume: "More information on my first portfolio",
         badge: ["React js", "Tailwind", "Javascript"],
         tech: ["React js", "Tailwindcss", "Javascript", "I18Next"],
         outil:["Visual Studio Code"],

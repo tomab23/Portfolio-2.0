@@ -22,14 +22,19 @@ const CardProject = ({ project }) => {
     };
   return (
     <Card
+    theme={{
+      img: {
+        base : "h-full",
+      }
+    }}
     className="max-w-xs hover:rotate-1"
-    imgAlt="Meaningful alt text for an image that is not purely decorative"
+    imgAlt="Image du projet"
     imgSrc={project.imgs[0]}
   >
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
       {project.name}
     </h5>
-    <p className="font-normal text-gray-700 dark:text-gray-400">
+    <p className="font-normal text-sm text-gray-700 dark:text-gray-400 truncate ..." title={project.resume}>
      {project.resume}
     </p>
     {/* BADGE */}
