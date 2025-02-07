@@ -10,6 +10,7 @@ import ContactMe from "../components/conatct/ContactMe";
 import Experiences from "../components/experiences/Experiences";
 import ScrollToTop from "../components/custom/buttons/ScrollToTop";
 import CustomTitle from "../components/custom/CustomTitle";
+import ScrollPage from "../helpers/ScrollPage";
 
 const HomePage = () => {
     const navigate = useNavigate();

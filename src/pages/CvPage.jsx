@@ -9,6 +9,7 @@ import pdf_en from '../assets/pdf/CV_2025_en.pdf';
 import pdf_fr from '../assets/pdf/CV_2025_fr.pdf';
 import { Button } from 'flowbite-react';
 import { Download } from 'lucide-react';
+import ScrollPageZero from '../helpers/ScrollPageZero';
 
 const CvPage = () => {
 
@@ -20,6 +21,7 @@ const CvPage = () => {
   
   return (
     <div className='max-sm:h-[100vh] md:pb-10'>
+      <ScrollPageZero />
       <Header />
 
       <div className='flex justify-between items-center'>

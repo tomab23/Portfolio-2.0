@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes} from "react-router";
+import { BrowserRouter, Route, Routes, ScrollRestoration} from "react-router";
 import HomePage from "../pages/HomePage";
 import CvPage from "../pages/CvPage";
 import ListProjectsPage from "../pages/ListProjectsPage";

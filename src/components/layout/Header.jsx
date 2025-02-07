@@ -17,9 +17,8 @@ const Header = ({ home }) => {
 
   return (
     <Navbar fluid className="dark:bg-dark-dark sticky top-0 z-50">
-      <NavbarBrand href="" className="font-devgothic">
+      <NavbarBrand className="font-devgothic">
         <h1
-          onClick={() => navigate("/")}
           className="self-center whitespace-nowrap text-3xl max-lg:text-xl max-md:text-2xl font-semibold hover:scale-y-125 dark:text-white"
         >
           {text}

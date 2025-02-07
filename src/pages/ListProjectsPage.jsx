@@ -6,6 +6,7 @@ import { ProjectsMockFr } from "../models/ProjectsMockFr"
 import { ProjectsMockEn } from "../models/ProjectsMockEn"
 import CardProject from "../components/projects/CardProject";
 import ScrollToTop from "../components/custom/buttons/ScrollToTop";
+import ScrollPageZero from "../helpers/ScrollPageZero";
 
 const ListProjectsPage = () => {
 
@@ -15,6 +16,7 @@ const ListProjectsPage = () => {
 
   return (
     <div className="">
+        <ScrollPageZero />
         <Header />
         <div className="flex items-center justify-between mr-6 max-sm:mr-4">
         <BackButton />

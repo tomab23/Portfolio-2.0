@@ -6,7 +6,7 @@ import { Twitter } from 'lucide-react';
 
 const NetworksFooter = () => {
   return (
-    <div className="flex gap-5 items-center">
+    <div className="flex gap-5 justify-end max-sm:justify-center w-40">
     <a
       href="https://github.com/tomab23"
       title="Github"
