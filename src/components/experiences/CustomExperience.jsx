@@ -30,8 +30,8 @@ const CustomExperience = ({ children, date, title, latest }) => {
               </span>
             }
           </Timeline.Title>
-          <Timeline.Time>{date}</Timeline.Time>
-          <Timeline.Body>{children}</Timeline.Body>
+          <Timeline.Time className="text-dark-ligh dark:text-gray-200">{date}</Timeline.Time>
+          <Timeline.Body className="text-dark dark:text-light">{children}</Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>
     </Timeline>
