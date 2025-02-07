@@ -16,7 +16,7 @@ const Header = ({ home }) => {
   const text = "<Thomas Bartier />";
 
   return (
-    <Navbar fluid className="dark:bg-dark-dark">
+    <Navbar fluid className="dark:bg-dark-dark sticky top-0 z-50">
       <NavbarBrand href="" className="font-devgothic">
         <h1
           onClick={() => navigate("/")}
