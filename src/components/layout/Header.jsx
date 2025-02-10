@@ -9,9 +9,11 @@ import {
 } from "flowbite-react";
 import DropdownTranslate from "../DropdownTranslate";
 import { useNavigate } from "react-router";
+import { useTranslation } from "react-i18next";
 
 const Header = ({ home }) => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const text = "<Thomas Bartier />";
 
@@ -33,10 +35,10 @@ const Header = ({ home }) => {
       </div>
       {home && (
         <NavbarCollapse className="font-devgothic">
-          <NavbarLink className="text-2xl max-lg:text-xl" href="#about">About me</NavbarLink>
-          <NavbarLink className="text-2xl max-lg:text-xl" href="#skills">skills</NavbarLink>
-          <NavbarLink className="text-2xl max-lg:text-xl" href="#projects">Projects</NavbarLink>
-          <NavbarLink className="text-2xl max-lg:text-xl" href="#exp">Experiences</NavbarLink>
+          <NavbarLink className="text-2xl max-lg:text-xl" href="#about">{t("TITLE.ABOUT")}</NavbarLink>
+          <NavbarLink className="text-2xl max-lg:text-xl" href="#skills">{t("TITLE.SKILLS")}</NavbarLink>
+          <NavbarLink className="text-2xl max-lg:text-xl" href="#projects">{t("TITLE.PROJECTS")}</NavbarLink>
+          <NavbarLink className="text-2xl max-lg:text-xl" href="#exp">{t("TITLE.EXP")}</NavbarLink>
           <NavbarLink className="text-2xl max-lg:text-xl" href="#contact">Contact</NavbarLink>
         </NavbarCollapse>
       )}
