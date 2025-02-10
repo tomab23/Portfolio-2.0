@@ -26,14 +26,14 @@ const CvPage = () => {
 
       <div className='flex justify-between items-center'>
       <BackButton />
-      <CustomTitle className={"mr-6 max-sm:mr-2"}>Mon CV</CustomTitle>
+      <CustomTitle className={"mr-6 max-sm:mr-2"}>{t("CV.RESUME")}</CustomTitle>
       </div>
 
       <div className='flex justify-center max-sm:mt-2'>
       <Button >
         <Download className='mr-2 h-5 w-5' />
         <a href={pdf} download="CV_Thomas_Bartier">
-        {"Télécharger" + " PDF"}
+        {t("CV.DOWNLOAD")} PDF
       </a>
       </Button>
       </div>

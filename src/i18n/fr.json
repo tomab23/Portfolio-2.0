@@ -1,8 +1,19 @@
 {
+  "CV": {
+    "DOWNLOAD": "Télécharger",
+    "RESUME": "Mon CV"
+  },
+  "EXP": {
+    "LATEST": "Dernière"
+  },
   "FOOTER": "Développé par Thomas Bartier",
   "TEST": "TEST-FR",
   "TITLE": {
-    "SKILLS": "Compétences"
+    "ABOUT": "À propos",
+    "EXP": "Experiences",
+    "LAST": "Derniers projects",
+    "PROJECTS": "Projets",
+    "SKILLS": "Competences"
   },
   "TOTOP": "Haut de page",
   "WELCOME": "Bienvenue"

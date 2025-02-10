@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import CustomTitle from "../custom/CustomTitle";
 
 const ContactMe = () => {
   return (
-    <div>ContactMe</div>
-  )
-}
+    <div id="contact">
+      <CustomTitle className={"title"}>Contact</CustomTitle>
+    </div>
+  );
+};
 
-export default ContactMe
+export default ContactMe;

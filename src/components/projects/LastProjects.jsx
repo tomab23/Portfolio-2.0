@@ -13,7 +13,7 @@ const LastProjects = () => {
   return (
     <div id="projects" className="flex flex-col gap-10">
       <CustomTitle className={"title"}>
-        Derniers projets
+        {t("TITLE.LAST")}
       </CustomTitle>
 
 {/* LAST PROJECTS */}
