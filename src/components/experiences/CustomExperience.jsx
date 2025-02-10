@@ -1,9 +1,12 @@
 import { Timeline } from "flowbite-react";
 import { useTranslation } from "react-i18next";
 import { CalendarDays } from "lucide-react";
+import { ExperiencesMockFr } from "../../models/ExperiencesMockFr";
 
-const CustomExperience = ({ children, date, title, latest }) => {
+const CustomExperience = ({ experience }) => {
   const { t } = useTranslation();
+
+  const lastId = ExperiencesMockFr.length;
 
   return (
     <Timeline>
@@ -22,16 +25,27 @@ const CustomExperience = ({ children, date, title, latest }) => {
         />
         <Timeline.Content>
           <Timeline.Title>
-            {title}
-            {latest && 
+            {experience.title} | {experience.entreprise}
+            {experience.id === lastId && (
               <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
-                {/* {t("experience.latest")} */}
                 Dernière
               </span>
-            }
+            )}
           </Timeline.Title>
-          <Timeline.Time className="text-dark-ligh dark:text-gray-200">{date}</Timeline.Time>
-          <Timeline.Body className="text-dark dark:text-light">{children}</Timeline.Body>
+          <Timeline.Time className="text-dark-ligh dark:text-gray-200">
+            {experience.date}
+          </Timeline.Time>
+          <Timeline.Body className="text-dark dark:text-light">
+            <p>{experience.resume}</p>
+            {experience.work && (
+              <div>
+                <p className="italic">
+                  Technologies utilisées : {experience.stack}
+                </p>
+                <p className="text-sm">{experience.info}</p>
+              </div>
+            )}
+          </Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>
     </Timeline>
