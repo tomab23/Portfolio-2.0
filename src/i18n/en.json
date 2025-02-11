@@ -7,11 +7,14 @@
     "LATEST": "Latest"
   },
   "FOOTER": "Developed by Thomas Bartier",
+  "PROJECT": {
+    "TOOLS": "Tools used"
+  },
   "TEST": "TEST-EN",
   "TITLE": {
     "ABOUT": "About me",
     "EXP": "Experiences",
-    "LAST": "Last projects",
+    "LAST": "Latest projects",
     "PROJECTS": "Projects",
     "SKILLS": "Skills"
   },
