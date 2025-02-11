@@ -40,6 +40,7 @@ const ProjectPage = () => {
   }, [projectstList]);
 
   const siteExist = project.site === "" ? false : true;
+  const moreDescription = project.more === "" ? false : true;
 
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
@@ -79,7 +80,9 @@ const ProjectPage = () => {
         </div>
         {/* TEXT */}
           <p className="w-[90%] max-sm:w-[95%] text-pretty">{project.description}</p>
-          <p className="w-[90%] max-sm:w-[95%] text-pretty">{project?.more}</p>
+          {moreDescription &&
+          <p className="w-[90%] max-sm:w-[95%] text-pretty">{project.more}</p>
+          }
         {/* OUTILS */}
         <div>
           <p>{t("PROJECT.TOOLS")} : </p>
