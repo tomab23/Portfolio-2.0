@@ -45,7 +45,7 @@ const CardProject = ({ project }) => {
     </div>
     {/* BUTTON */}
     <Button size="sm" className="self-end flex" onClick={goProject}>
-        Read more
+        {t("PROJECT.READ")}
         <ArrowRight className="ml-1 h-5 w-5" />
       </Button>
   </Card>
