@@ -3,7 +3,7 @@ import LinksAbout from './LinksAbout'
 
 const AboutMe = () => {
   return (
-    <div className='flex flex-col'>
+    <div id='about' className='flex flex-col'>
       <p>AboutMe</p>
       
       <div className='flex flex-wrap gap-5'>

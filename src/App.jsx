@@ -5,7 +5,7 @@ import ScrollPage from "./helpers/ScrollPage";
 
 function App() {
   return (
-    <div className="bg-light-light dark:bg-dark">
+    <div className="bg-light dark:bg-dark">
       <RoutesApp/>
     </div>
   )

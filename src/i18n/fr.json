@@ -8,6 +8,9 @@
   },
   "FOOTER": "Développé par Thomas Bartier",
   "PROJECT": {
+    "BUTTON": "Voir tous mes projets",
+    "READ": "Voir plus",
+    "TITLE": "Mes projets",
     "TOOLS": "Outils utilisés"
   },
   "TEST": "TEST-FR",
