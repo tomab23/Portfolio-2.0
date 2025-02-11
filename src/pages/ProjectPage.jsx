@@ -2,7 +2,7 @@ import { useLocation } from "react-router";
 import BackButton from "../components/custom/buttons/BackButton";
 import CustomTitle from "../components/custom/CustomTitle";
 import Header from "../components/layout/Header";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import ScrollPageZero from "../helpers/ScrollPageZero";
 import { useTranslation } from "react-i18next";
 import { ProjectsMockFr } from "../models/ProjectsMockFr";
@@ -10,6 +10,7 @@ import { ProjectsMockEn } from "../models/ProjectsMockEn";
 import BagdeProject from "../components/projects/BagdeProject";
 import CustomLinkButton from "../components/custom/buttons/CustomLinkButton";
 import ScrollToTop from "../components/custom/buttons/ScrollToTop";
+import ImageViewer from 'react-simple-image-viewer';
 
 const ProjectPage = () => {
   const location = useLocation();
@@ -40,6 +41,22 @@ const ProjectPage = () => {
 
   const siteExist = project.site === "" ? false : true;
 
+  const [currentImage, setCurrentImage] = useState(0);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
+  const images = 
+    project.imgs
+  ;
+
+  const openImageViewer = useCallback((index) => {
+    setCurrentImage(index);
+    setIsViewerOpen(true);
+  }, []);
+
+  const closeImageViewer = () => {
+    setCurrentImage(0);
+    setIsViewerOpen(false);
+  };
+
   return (
     <div className="pb-10 min-h-[100vh]">
       <ScrollPageZero />
@@ -51,18 +68,18 @@ const ProjectPage = () => {
         </CustomTitle>
       </div>
     {/* BODY */}
-      <div className="ml-5 mt-5 dark:text-light flex flex-col gap-5">
+      <div className="ml-5 max-sm:ml-3 mt-5 dark:text-light flex flex-col gap-5">
         {/* DATE */}
-        <h2>{project.date}</h2>
+        <h2 className="font-bold">{project.date}</h2>
         {/* TECH */}
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           {project.tech.map((tech) => (
             <BagdeProject key={tech} name={tech} />
           ))}
         </div>
         {/* TEXT */}
-          <p className="w-[90%]">{project.resume}</p>
-          <p className="w-[90%]">{project?.more}</p>
+          <p className="w-[90%] max-sm:w-[95%] text-pretty">{project.description}</p>
+          <p className="w-[90%] max-sm:w-[95%] text-pretty">{project?.more}</p>
         {/* OUTILS */}
         <div>
           <p>{t("PROJECT.TOOLS")} : </p>
@@ -78,13 +95,36 @@ const ProjectPage = () => {
           }
         </div>
       {/* IMG */}
-      <div className="flex flex-wrap max-lg:gap-3 gap-10 mt-5">
+      {/* <div className="flex flex-wrap max-lg:gap-3 gap-10 mt-5">
           {project.imgs?.map((img) => (
             <img key={img} src={img} className="h-[20rem] w-[40rem]"/>
           ))}
-        </div>
+        </div> */}
+            <div className="flex flex-wrap max-lg:gap-3 gap-10 mt-5 z-50">
+      {images.map((src, index) => (
+        <img
+          src={ src }
+          onClick={ () => openImageViewer(index) }
+          className="h-[20rem] max-sm:h-[11rem] w-[40rem] max-sm:w-[22.5rem] cursor-pointer"
+          key={ index }
+          style={{ margin: '2px' }}
+          alt=""
+        />
+      ))}
+
+      {isViewerOpen && (
+        <ImageViewer
+          src={ images }
+          currentIndex={ currentImage }
+          disableScroll={ true }
+          closeOnClickOutside={ true }
+          onClose={ closeImageViewer }
+        />
+      )}
+    </div>
       </div>
-      <ScrollToTop />
+      {!isViewerOpen && <ScrollToTop />}
+      
     </div>
   );
 };
