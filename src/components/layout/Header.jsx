@@ -1,5 +1,4 @@
 import {
-  Button,
   DarkThemeToggle,
   Navbar,
   NavbarBrand,
@@ -18,10 +17,10 @@ const Header = ({ home }) => {
   const text = "<Thomas Bartier />";
 
   return (
-    <Navbar fluid className="dark:bg-dark-dark sticky top-0 z-50">
+    <Navbar fluid className="dark:bg-dark-dark sticky top-0 z-50 bg-light">
       <NavbarBrand className="font-devgothic">
         <h1
-          className="self-center whitespace-nowrap text-3xl max-lg:text-xl max-md:text-2xl font-semibold hover:scale-y-125 dark:text-white cursor-pointer"
+          className={`self-center whitespace-nowrap text-3xl max-lg:text-xl max-md:text-2xl font-semibold hover:scale-y-125 dark:text-white ${!home ? "cursor-pointer" : "cursor-default"}`}
           onClick={() => navigate("/")}
         >
           {text}

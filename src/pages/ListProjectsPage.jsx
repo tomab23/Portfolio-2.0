@@ -21,7 +21,7 @@ const ListProjectsPage = () => {
         <div className="flex items-center justify-between mr-6 max-sm:mr-4">
         <BackButton />
         <CustomTitle className={"text-center"}>
-            MES PROJETS ({mock.length})
+            {t("PROJECT.TITLE")} ({mock.length})
         </CustomTitle>
         </div>
 
