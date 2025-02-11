@@ -1,19 +1,49 @@
-import React from 'react'
-import LinksAbout from './LinksAbout'
+import React from "react";
+import LinksAbout from "./LinksAbout";
+import { Card } from "flowbite-react";
+import { useNavigate } from "react-router";
+import { House } from "lucide-react";
+import MeFr from "./MeFr";
+import { useTranslation } from "react-i18next";
+import MeEn from "./MeEn";
 
 const AboutMe = () => {
+  const navigate = useNavigate();
+  const { t, i18n } = useTranslation();
+
   return (
-    <div id='about' className='flex flex-col'>
-      <p>AboutMe</p>
-      
-      <div className='flex flex-wrap gap-5'>
-      <img src="/src/assets/illustrations/dev.svg" alt="illustration Développeur by Storyset" className='h-60 w-60'/>
-      <span>illustration Développeur by Storyset</span>
-      <img src="/src/assets/illustrations/devAlt.svg" alt="illustration Développeur by Storyset" className='h-60 w-60'/>
-      </div>
+    <div className="flex flex-col gap-2 max-md:items-center">
+      {/* illustration Développeur by Storyset" */}
+      <Card
+        theme={{
+          root: {
+            base: "flex rounded-lg border border-gray-200 bg-light shadow-md dark:border-gray-700 dark:bg-gray-800 p-5 max-sm:p-3",
+            children: "flex h-full flex-col gap-4 py-2 px-4",
+            horizontal: {
+              off: "flex-col",
+              on: "flex-col-reverse md:max-w-[100%] md:flex-row-reverse max-md:items-center",
+            },
+          },
+          img: {
+            horizontal: {
+              on: "h-96 w-full rounded-t-lg object-cover md:h-auto md:w-60 max-md:w-80 md:rounded-none md:rounded-l-lg max-sm:-mt-16",
+            },
+          },
+        }}
+        className="max-w-sm"
+        imgSrc="/src/assets/illustrations/dev.svg"
+        horizontal
+      >
+        <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+          <span className="font-goodMatcha">{t("ABOUT.TITLE")}</span>{" "}{t('ABOUT.MORE')}
+        </h5>
+        {/* CHIDLREN */}
+        {i18n.language === "fr" ? <MeFr /> : <MeEn />}
+      </Card>
+
       <LinksAbout />
     </div>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;

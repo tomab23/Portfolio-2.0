@@ -13,7 +13,7 @@ const RoutesApp = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/cv" element={<CvPage />} />
-        <Route path="/projets" element={<ListProjectsPage />} />
+        <Route path="/projects" element={<ListProjectsPage />} />
         <Route path="/project/:name" element={<ProjectPage />} />
       </Routes>
     </BrowserRouter>

@@ -11,7 +11,7 @@ const LastProjects = () => {
   const mock = i18n.language === "fr" ?  ProjectsMockFr : ProjectsMockEn;
 
   return (
-    <div id="projects" className="flex flex-col gap-10">
+    <div id="projects" className="flex flex-col gap-10 max-sm:gap-5">
       <CustomTitle className={"title"}>
         {t("TITLE.LAST")}
       </CustomTitle>
@@ -23,7 +23,7 @@ const LastProjects = () => {
             )).slice(-3).reverse()}
       </div>
 
-      <CustomLinkButton title={t("PROJECT.BUTTON")} page={"projets"} classname={"self-start bg-teal-600 dark:bg-teal-600"} />
+      <CustomLinkButton title={t("PROJECT.BUTTON")} page={"projects"} classname={"self-start bg-teal-600 dark:bg-teal-600"} />
     </div>
   )
 }
