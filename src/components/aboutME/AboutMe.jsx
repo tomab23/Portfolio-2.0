@@ -2,7 +2,6 @@ import React from "react";
 import LinksAbout from "./LinksAbout";
 import { Card } from "flowbite-react";
 import { useNavigate } from "react-router";
-import { House } from "lucide-react";
 import MeFr from "./MeFr";
 import { useTranslation } from "react-i18next";
 import MeEn from "./MeEn";
@@ -17,8 +16,8 @@ const AboutMe = () => {
       <Card
         theme={{
           root: {
-            base: "flex rounded-lg border border-gray-200 bg-light shadow-md dark:border-gray-700 dark:bg-gray-800 p-5 max-sm:p-3",
-            children: "flex h-full flex-col gap-4 py-2 px-4",
+            base: "flex rounded-lg border border-gray-200 bg-light shadow-md dark:border-gray-700 dark:bg-gray-800 p-4 max-sm:p-3",
+            children: "flex h-full flex-col gap-4 p-2",
             horizontal: {
               off: "flex-col",
               on: "flex-col-reverse md:max-w-[100%] md:flex-row-reverse max-md:items-center",

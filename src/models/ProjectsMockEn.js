@@ -16,7 +16,9 @@ import dodgeThem from "../assets/images/projects/DodgeThemGame/dtg_img.png"
 import portfolio from "../assets/images/projects/Portfolio/ImagePortfolio.png"
 import portfolio2 from "../assets/images/projects/Portfolio/ImagePortfolio2.png"
 import GsWainting from "../assets/images/projects/GamesSearch/gs-waiting.png"
-import test from "../assets/test.png"
+import p2homed from "../assets/images/projects/Portfolio2/portfolio_2_home_d.png"
+import p2home from "../assets/images/projects/Portfolio2/portfolio_2_home.png"
+import p2projects from "../assets/images/projects/Portfolio2/portfolio_2_projects.png"
 
 export const ProjectsMockEn = [
     {
@@ -131,12 +133,12 @@ export const ProjectsMockEn = [
         badge: ["React js", "Tailwind", "Javascript"],
         tech: ["React js", "Tailwindcss", "Flowbite react", "Javascript", "I18Next"],
         outil:["Visual Studio Code"],
-        description: "Voici mon portfolio (sur lequel vous êtes actuellement). C'est la toute première version. Vous pouvez avoir acces au code via Github plus bas.",
-        more: "L'objectif était de faire de A à Z un portfolio avec quelques fonctionnalités comme me contacter par mail via un formulaire, le choix de la langue (français - anglais) et l'ajout d'un dark mode avec le choix de le mettre ou non, le tout en étant responsive. Je me suis amusé aussi à mettre des notes de version pour voir l'acutelle, les anciennes et futures mises à jour.",
+        description: "Description EN",
+        more: "More EN",
         date: "2025",
         github: "https://github.com/tomab23/Portfolio",
         site: "https://thomas-bartier.netlify.app/",
-        imgs: [test],
+        imgs: [p2homed, p2home, p2projects],
         incoming: false
     },
     // {
