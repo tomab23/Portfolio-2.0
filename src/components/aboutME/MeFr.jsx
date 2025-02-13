@@ -7,7 +7,7 @@ const MeFr = () => {
     const navigate = useNavigate();
 
   return (
-    <div className='flex h-full flex-col justify-center gap-4 font-normal text-gray-700 dark:text-gray-200 '>
+    <div className='flex h-full flex-col justify-center gap-4 font-normal text-gray-700 dark:text-gray-200'>
     <p className="">
     Je m'appelle <b>Thomas Bartier</b> après avoir découvert le développement en mai 2022 pendant 5 semaines, je suis partie sur une <b>CDA</b> (formation concepteur développeur d'applications) durant 8 mois.
     </p>

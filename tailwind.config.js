@@ -28,7 +28,7 @@ module.exports = {
         "available" : {
           light: "#4ade80",
           dark: "#15803d"
-        }
+        },
       },
     },
           //   screens:{

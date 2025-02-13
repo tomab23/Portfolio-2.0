@@ -1,5 +1,4 @@
 import { Button, Card } from "flowbite-react";
-import test from "../../assets/test.png"
 import { ArrowRight } from 'lucide-react';
 import BagdeProject from "./BagdeProject";
 import { useNavigate } from "react-router";
