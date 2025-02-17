@@ -12,7 +12,6 @@ const Footer = () => {
     max-sm:flex-col-reverse max-sm:items-center max-sm:gap-2 max-sm:mt-2 max-lg:pb-20"
       >
         <p className="font-semibold">{t("FOOTER")}</p>
-        <p className="font-semibold">©2025</p>
         <NetworksFooter />
       </div>
     </div>

@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { ExperiencesMockFr } from "../../models/ExperiencesMockFr";
 import { ExperiencesMockEn } from "../../models/ExperiencesMockEn";
 import CustomExperience from "./CustomExperience";
+import { Card } from "flowbite-react";
 
 const MyExperiences = () => {
 
