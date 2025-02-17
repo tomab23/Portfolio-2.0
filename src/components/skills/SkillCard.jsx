@@ -10,10 +10,7 @@ const SkillCard = ({ skill }) => {
         }
     }}>
     {/* <div className="flex flex-col items-center gap-2 max-sm:gap-2  "> */}
-    <img src={skill.img} alt="" title={skill?.title} />
-      {/* <p className={`font-bold max-sm:text-sm dark:text-light text-gray-700 w-[8rem] text-center`}>
-        {skill.name}
-      </p> */}
+    <img src={skill.img} alt="" title={skill?.title} className={`${skill.name === "React native" && "scale-150"}`} />
     {/* </div> */}
     </Card>
   )

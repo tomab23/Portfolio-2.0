@@ -8,6 +8,7 @@ import tailwind from "../assets/images/Skills/taiwind.png"
 import scrum from "../assets/images/Skills/scrum.png"
 import formik from "../assets/images/Skills/formik.svg"
 import mysql from "../assets/images/Skills/mysql-logo.svg"
+import native from "../assets/images/Skills/react-native-1.svg"
 
 export const SkillsMock = [
     {
@@ -22,7 +23,7 @@ export const SkillsMock = [
         name: "React native",
         title: "React native",
         color: "#61dbfb",
-        img : reactIcon,
+        img : native,
     },
     {
         id: 3,
