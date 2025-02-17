@@ -10,7 +10,7 @@ const MyExperiences = () => {
     const mock = i18n.language === "fr" ? ExperiencesMockFr : ExperiencesMockEn;
 
   return (
-    <ol className="relative border-l border-gray-200 dark:border-gray-700 mt-10">
+    <ol className="relative border-l border-gray-200 dark:border-gray-700">
             {mock.map((exp) => (
               <li key={exp.id}>
                 <CustomExperience  experience={exp} />

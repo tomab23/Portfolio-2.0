@@ -8,7 +8,9 @@
     "RESUME": "My resume"
   },
   "EXP": {
-    "LATEST": "Latest"
+    "LATEST": "Latest",
+    "NOW": "In progress",
+    "SOON": "Coming soon"
   },
   "FOOTER": "Developed by Thomas Bartier",
   "PROJECT": {
