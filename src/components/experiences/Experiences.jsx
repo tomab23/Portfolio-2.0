@@ -1,5 +1,5 @@
 
-import { DarkThemeToggle } from "flowbite-react"
+import { Card, DarkThemeToggle } from "flowbite-react"
 import CustomTitle from "../custom/CustomTitle"
 import MyExperiences from "./MyExperiences"
 import { useTranslation } from "react-i18next"
@@ -15,7 +15,15 @@ const Experiences = () => {
         {title}
       </CustomTitle>
 
+      <Card className="mt-8 max-sm:mt-5 bg-light">
       <MyExperiences />
+    </Card>
+
+    {/* <div className="mt-10">
+      <MyExperiences />
+    </div> */}
+
+      
 
 
     </div>
