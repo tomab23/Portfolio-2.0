@@ -39,7 +39,7 @@ const Header = ({ home }) => {
           <NavbarLink className="text-2xl max-lg:text-xl" href="#skills">{t("TITLE.SKILLS")}</NavbarLink>
           <NavbarLink className="text-2xl max-lg:text-xl" href="#projects">{t("TITLE.PROJECTS")}</NavbarLink>
           <NavbarLink className="text-2xl max-lg:text-xl" href="#exp">{t("TITLE.EXP")}</NavbarLink>
-          <NavbarLink className="text-2xl max-lg:text-xl" href="#contact">Contact</NavbarLink>
+          {/* <NavbarLink className="text-2xl max-lg:text-xl" href="#contact">Contact</NavbarLink> */}
         </NavbarCollapse>
       )}
     </Navbar>
