@@ -104,7 +104,7 @@ export const ProjectsMockFr = [
         more: "L'objectif était de faire de A à Z un portfolio avec quelques fonctionnalités comme me contacter par mail via un formulaire, le choix de la langue (français - anglais) et l'ajout d'un dark mode avec le choix de le mettre ou non, le tout en étant responsive. Je me suis amusé aussi à mettre des notes de version pour voir l'acutelle, les anciennes et futures mises à jour.",
         date: "2023 - 2024",
         github: "https://github.com/tomab23/Portfolio",
-        site: "https://thomas-bartier.netlify.app/",
+        site: "https://thomasbartier-oldv.netlify.app/",
         imgs: EnumImages.Portfolio,
         incoming: false
     },
