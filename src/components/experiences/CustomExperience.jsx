@@ -54,7 +54,7 @@ const CustomExperience = ({ experience }) => {
             {experience.work && (
               <div>
                 <p className="italic">
-                  Technologies utilisées : {experience.stack}
+                  {t("EXP.TECH")} : {experience.stack}
                 </p>
                 <p className="text-sm">{experience.info}</p>
               </div>
