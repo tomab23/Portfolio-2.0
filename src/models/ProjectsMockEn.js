@@ -102,7 +102,7 @@ export const ProjectsMockEn = [
         more: "The aim was to create a portfolio from scratch, with a few features such as email contact via a form, a choice of language (French - English) and the addition of a dark mode with a choice of whether to use it or not, all while being responsive. I also had fun adding version notes so I could see the status of old and future updates.",
         date: "2023 - 2024",
         github: "https://github.com/tomab23/Portfolio",
-        site: "https://thomas-bartier.netlify.app/",
+        site: "https://thomasbartier-oldv.netlify.app/",
         imgs: EnumImages.Portfolio,
         incoming: false
     },
