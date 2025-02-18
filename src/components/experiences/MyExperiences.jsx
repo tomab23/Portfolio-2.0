@@ -2,11 +2,10 @@ import { useTranslation } from "react-i18next";
 import { ExperiencesMockFr } from "../../models/ExperiencesMockFr";
 import { ExperiencesMockEn } from "../../models/ExperiencesMockEn";
 import CustomExperience from "./CustomExperience";
-import { Card } from "flowbite-react";
 
 const MyExperiences = () => {
 
-    const { t, i18n } = useTranslation();
+    const { i18n } = useTranslation();
 
     const mock = i18n.language === "fr" ? ExperiencesMockFr : ExperiencesMockEn;
 

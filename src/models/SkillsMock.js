@@ -55,7 +55,7 @@ export const SkillsMock = [
     },
     {
         id: 7,
-        name: "",
+        name: "mySql",
         title: "MySql",
         color: "",
         img : mysql,
@@ -83,7 +83,7 @@ export const SkillsMock = [
     },
     {
         id: 11,
-        name: "",
+        name: "scrum",
         title : "Approche agile Scrum",
         color: "",
         img : scrum,
