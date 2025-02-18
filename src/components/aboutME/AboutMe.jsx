@@ -30,7 +30,7 @@ const AboutMe = () => {
           },
         }}
         className="max-w-sm"
-        imgSrc="/src/assets/illustrations/dev.svg"
+        imgSrc="/dev.svg"
         horizontal
       >
         <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
