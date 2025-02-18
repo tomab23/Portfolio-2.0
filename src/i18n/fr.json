@@ -14,6 +14,10 @@
     "TECH": "Technologies utilisées "
   },
   "FOOTER": "Développé par Thomas Bartier",
+  "NOTFOUND": {
+    "BUTTON": "Retour à l'application",
+    "TEXT": "Impossible de trouver la page"
+  },
   "PROJECT": {
     "BUTTON": "Voir tous mes projets",
     "READ": "Voir plus",

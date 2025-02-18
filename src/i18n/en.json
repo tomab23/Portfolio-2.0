@@ -14,6 +14,10 @@
     "TECH": "Technologies used"
   },
   "FOOTER": "Developed by Thomas Bartier",
+  "NOTFOUND": {
+    "BUTTON": "Back in the application",
+    "TEXT": "Page not found"
+  },
   "PROJECT": {
     "BUTTON": "See all my projects",
     "READ": "Read more",
