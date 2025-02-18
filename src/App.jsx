@@ -1,5 +1,5 @@
-import RoutesApp from "./Routes/RoutesApp";
 import '../src/i18n/i18n';
+import RoutesApp from './routes/RoutesApp';
 
 
 function App() {
