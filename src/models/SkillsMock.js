@@ -1,14 +1,14 @@
-import reactIcon from "../assets/images/Skills/react.png"
-import js from "../assets/images/Skills/js.png"
-import ts from "../assets/images/Skills/typescript.png"
-import java from "../assets/images/Skills/java.png"
-import spring from "../assets/images/Skills/spring.png"
-import i18n from "../assets/images/Skills/i18n.png"
-import tailwind from "../assets/images/Skills/taiwind.png"
-import scrum from "../assets/images/Skills/scrum.png"
-import formik from "../assets/images/Skills/formik.svg"
-import mysql from "../assets/images/Skills/mysql-logo.svg"
-import native from "../assets/images/Skills/react-native-1.svg"
+import react from "../assets/images/stack/react.png"
+import js from "../assets/images/stack/js.png"
+import ts from "../assets/images/stack/typescript.png"
+import java from "../assets/images/stack/java.png"
+import spring from "../assets/images/stack/spring.png"
+import i18n from "../assets/images/stack/i18n.png"
+import tailwind from "../assets/images/stack/taiwind.png"
+import scrum from "../assets/images/stack/scrum.png"
+import formik from "../assets/images/stack/formik.svg"
+import mysql from "../assets/images/stack/mysql-logo.svg"
+import native from "../assets/images/stack/react-native-1.svg"
 
 export const SkillsMock = [
     {
@@ -16,7 +16,7 @@ export const SkillsMock = [
         name: "React",
         title: "React",
         color: "#61dbfb",
-        img : reactIcon,
+        img : react,
     },
     {
         id: 2,
