@@ -1,24 +1,4 @@
-import treizzer from "../assets/images/projects/Treizzer/tzr_accueil.png"
-import treizzerSong from "../assets/images/projects/Treizzer/tzr_song.png"
-import treizzerAlbum from "../assets/images/projects/Treizzer/tzr_album.png"
-import treizzerDetail from "../assets/images/projects/Treizzer/tzr_albumDetail.png"
-import treizzerShop from "../assets/images/projects/Treizzer/tzr_shop.png"
-import pokedexHome from "../assets/images/projects/Pokedex/pokedex_home.png"
-import pokedex from "../assets/images/projects/Pokedex/pokedex_pokemon.png"
-import marioPizza from "../assets/images/projects/MarioPizza/MarioPizza_img.png"
-import financeOpen from "../assets/images/projects/SoftwareBusiness/FinanceOpen.png"
-import finance from "../assets/images/projects/SoftwareBusiness/Finance.png"
-import financeCreation from "../assets/images/projects/SoftwareBusiness/Creation.png"
-import financeLogin from "../assets/images/projects/SoftwareBusiness/PageLogin.png"
-import codrive from "../assets/images/projects/CoDrive/Codrive.png"
-import codriveAdmin from "../assets/images/projects/CoDrive/admin.png"
-import dodgeThem from "../assets/images/projects/DodgeThemGame/dtg_img.png"
-import portfolio from "../assets/images/projects/Portfolio/ImagePortfolio.png"
-import portfolio2 from "../assets/images/projects/Portfolio/ImagePortfolio2.png"
-import GsWainting from "../assets/images/projects/GamesSearch/gs-waiting.png"
-import p2homed from "../assets/images/projects/Portfolio2/portfolio_2_home_d.png"
-import p2home from "../assets/images/projects/Portfolio2/portfolio_2_home.png"
-import p2projects from "../assets/images/projects/Portfolio2/portfolio_2_projects.png"
+import { EnumImages } from "./enums/EnumImages"
 
 
 
@@ -35,7 +15,7 @@ export const ProjectsMockFr = [
         date: "2022",
         github: "https://github.com/tomab23/TreizzerApp",
         site: "",
-        imgs: [treizzer, treizzerAlbum, treizzerDetail, treizzerSong, treizzerShop],
+        imgs: EnumImages.Treizzer,
         incoming: false
     },
     {
@@ -50,7 +30,7 @@ export const ProjectsMockFr = [
         date: "2022",
         github: "https://github.com/tomab23/PokemonPokedex",
         site: "https://pokedex-app-532e3.web.app",
-        imgs: [pokedexHome, pokedex],
+        imgs: EnumImages.Pokedex,
         incoming: false
     },
     {
@@ -65,7 +45,7 @@ export const ProjectsMockFr = [
         date: "2022",
         github: "https://github.com/tomab23/AppPizza",
         site: "",
-        imgs: [marioPizza],
+        imgs: EnumImages.MarioPizza,
         incoming: false
     },
     {
@@ -80,7 +60,7 @@ export const ProjectsMockFr = [
         date: "2023",
         github: "https://github.com/tomab23/StageCDA",
         site: "",
-        imgs: [financeOpen, finance, financeCreation, financeLogin],
+        imgs: EnumImages.StageApp,
         incoming: false
     },
     {
@@ -95,7 +75,7 @@ export const ProjectsMockFr = [
         date: "2023",
         github: "https://github.com/tomab23/CoDrive",
         site: "",
-        imgs: [codrive, codriveAdmin],
+        imgs: EnumImages.Codrive,
         incoming: false
     },
     {
@@ -110,7 +90,7 @@ export const ProjectsMockFr = [
         date: "2024",
         github: "https://github.com/tomab23/DodgeThemGame",
         site: "",
-        imgs: [dodgeThem],
+        imgs: EnumImages.DodgeGame,
         incoming: false
     },
     {
@@ -125,7 +105,7 @@ export const ProjectsMockFr = [
         date: "2023 - 2024",
         github: "https://github.com/tomab23/Portfolio",
         site: "https://thomas-bartier.netlify.app/",
-        imgs: [portfolio, portfolio2],
+        imgs: EnumImages.Portfolio,
         incoming: false
     },
     {
@@ -140,7 +120,7 @@ export const ProjectsMockFr = [
         date: "2025",
         github: "https://github.com/tomab23/Portfolio",
         site: "https://thomas-bartier.netlify.app/",
-        imgs: [p2homed, p2home, p2projects],
+        imgs: EnumImages.PortfolioV2,
         incoming: false
     },
     // {

@@ -1,5 +1,4 @@
-
-import { Card, DarkThemeToggle } from "flowbite-react"
+import { Card } from "flowbite-react"
 import CustomTitle from "../custom/CustomTitle"
 import MyExperiences from "./MyExperiences"
 import { useTranslation } from "react-i18next"
