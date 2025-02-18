@@ -40,7 +40,7 @@ export const ExperiencesMockEn = [
     {
         id: 4,
         title: "Incubateur numérique",
-        entreprise : "1formation=1job EN",
+        entreprise : "1formation=1job",
         date : "April to August 2023",
         status: Status.Finish,
         work : true,
