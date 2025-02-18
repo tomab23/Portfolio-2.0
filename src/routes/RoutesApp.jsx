@@ -4,6 +4,7 @@ import CvPage from "../pages/CvPage";
 import ListProjectsPage from "../pages/ListProjectsPage";
 import ProjectPage from "../pages/ProjectPage";
 import ScrollPage from "../helpers/ScrollPage";
+import NotFoundPage from "../pages/NotFoundPage";
 
 const RoutesApp = () => {
   return (
@@ -15,6 +16,7 @@ const RoutesApp = () => {
         <Route path="/cv" element={<CvPage />} />
         <Route path="/projects" element={<ListProjectsPage />} />
         <Route path="/project/:name" element={<ProjectPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   </div>
