@@ -3,9 +3,29 @@
     "MORE": "en recherche d'alternance",
     "TITLE": "Développeur fullstack"
   },
+  "CONTACT": {
+    "EMAIL": "Votre email",
+    "ERROR": "Votre message n'a pas été envoyé.",
+    "FIRSTNAME": "Votre prénom",
+    "LASTNAME": "Votre nom",
+    "MESSAGE": "Votre message",
+    "PLACEHOLDER": "Tapez votre message ici.",
+    "SEND": "Envoyer",
+    "SENDING": "Envoi...",
+    "SUCCESS": "Votre message à bien été envoyé."
+  },
   "CV": {
     "DOWNLOAD": "Télécharger",
     "RESUME": "Mon CV"
+  },
+  "ERROR": {
+    "EMAIL": "Adresse email obligatoire",
+    "FIRSTNAME": "Votre prénom est obligatoire",
+    "LASTNAME": "Votre nom est obligatoire",
+    "LONG": "Votre message est trop long",
+    "MESSAGE": "Le message est obligatoire",
+    "SHORT": "Votre message est trop court",
+    "VALID": "Adresse email invalide"
   },
   "EXP": {
     "LATEST": "Dernière",
