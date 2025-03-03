@@ -30,7 +30,7 @@ const HomePage = () => {
       <Skills />
       <LastProjects />
       <Experiences />
-      {/* <ContactMe /> */}
+      <ContactMe />
       <ScrollToTop />
       </div>
       {/* </div> */}

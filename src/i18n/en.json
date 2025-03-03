@@ -3,9 +3,29 @@
     "MORE": "looking for a Work-Study Contract",
     "TITLE": "Fullstack Developer"
   },
+  "CONTACT": {
+    "EMAIL": "Your email",
+    "ERROR": "Your message has not been sent.",
+    "FIRSTNAME": "Your first name",
+    "LASTNAME": "Your last name",
+    "MESSAGE": "Your message",
+    "PLACEHOLDER": "Enter your message here.",
+    "SEND": "Send",
+    "SENDING": "Sending...",
+    "SUCCESS": "Your message has been sent."
+  },
   "CV": {
     "DOWNLOAD": "Download",
     "RESUME": "My resume"
+  },
+  "ERROR": {
+    "EMAIL": "Email address required",
+    "FIRSTNAME": "Your first name is required",
+    "LASTNAME": "Your last name is required",
+    "LONG": "Your message is too long",
+    "MESSAGE": "Message is required",
+    "SHORT": "Your message is too short",
+    "VALID": "Invalid email address"
   },
   "EXP": {
     "LATEST": "Latest",
