@@ -11,6 +11,9 @@ import BagdeProject from "../components/projects/BagdeProject";
 import CustomLinkButton from "../components/custom/buttons/CustomLinkButton";
 import ScrollToTop from "../components/custom/buttons/ScrollToTop";
 import ImageViewer from 'react-simple-image-viewer';
+import ReactCompareImage from 'react-compare-image';
+import imgP1 from "../assets/images/projects/Portfolio/ImagePortfolio.png"
+import imgp2 from "../assets/images/projects/Portfolio2/portfolio_2_home_d.png"
 
 const ProjectPage = () => {
   const location = useLocation();
@@ -97,23 +100,26 @@ const ProjectPage = () => {
           <CustomLinkButton title={"Site"} link page={project?.site} classname={"bg-teal-600 dark:bg-teal-600"}  />
           }
         </div>
+        {/* DIIF IMG PORTFOLIO 2.0 - Portfolio 1.0 */}
+          { project.name === "Portfolio 2.0" && 
+                  <div className="w-[70rem] max-sm:w-[22.5rem] max-lg:w-[40rem] flex justify-center self-center">
+                  <ReactCompareImage 
+                  leftImage={imgp2} leftImageAlt="Portfolio 2.0" leftImageLabel="Portfolio 2.0" 
+                  rightImage={imgP1} rightImageAlt="Portfolio 1.0" rightImageLabel="Portfolio 1.0" />;
+                  </div>
+          }
       {/* IMG */}
-      {/* <div className="flex flex-wrap max-lg:gap-3 gap-10 mt-5">
-          {project.imgs?.map((img) => (
-            <img key={img} src={img} className="h-[20rem] w-[40rem]"/>
+        <div className={`flex flex-wrap max-lg:gap-3 gap-10 mt-5 ${isViewerOpen && "z-50"}`}>
+          {images.map((src, index) => (
+            <img
+              src={ src }
+              onClick={ () => openImageViewer(index) }
+              className="h-[20rem] max-sm:h-[11rem] w-[40rem] max-sm:w-[22.5rem] cursor-pointer"
+              key={ index }
+              style={{ margin: '2px' }}
+              alt=""
+            />
           ))}
-        </div> */}
-            <div className="flex flex-wrap max-lg:gap-3 gap-10 mt-5 z-50">
-      {images.map((src, index) => (
-        <img
-          src={ src }
-          onClick={ () => openImageViewer(index) }
-          className="h-[20rem] max-sm:h-[11rem] w-[40rem] max-sm:w-[22.5rem] cursor-pointer"
-          key={ index }
-          style={{ margin: '2px' }}
-          alt=""
-        />
-      ))}
 
       {isViewerOpen && (
         <ImageViewer
