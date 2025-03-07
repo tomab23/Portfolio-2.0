@@ -14,7 +14,7 @@ const Experiences = () => {
         {title}
       </CustomTitle>
 
-      <Card className="mt-8 max-sm:mt-5 bg-light">
+      <Card className="mt-8 max-sm:mt-5 bg-white">
       <MyExperiences />
     </Card>
 
