@@ -23,7 +23,7 @@ const LastProjects = () => {
             )).slice(-3).reverse()}
       </div>
 
-      <CustomLinkButton title={t("PROJECT.BUTTON")} page={"projects"} classname={"self-start bg-teal-600 dark:bg-teal-600"} />
+      <CustomLinkButton title={t("PROJECT.BUTTON")} page={"projects"} classname={"self-start bg-teal-600 dark:bg-teal-600 md:-mt-5"} />
     </div>
   )
 }
