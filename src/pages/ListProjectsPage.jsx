@@ -7,6 +7,8 @@ import { ProjectsMockEn } from "../models/ProjectsMockEn"
 import CardProject from "../components/projects/CardProject";
 import ScrollToTop from "../components/custom/buttons/ScrollToTop";
 import ScrollPageZero from "../helpers/ScrollPageZero";
+import { Suspense } from "react";
+import Loading from "../components/loader/Loading";
 
 const ListProjectsPage = () => {
 
@@ -15,7 +17,7 @@ const ListProjectsPage = () => {
 
 
   return (
-    <div className="">
+    <div className="min-h-[100vh]">
         <ScrollPageZero />
         <Header />
         <div className="flex items-center justify-between mr-6 max-sm:mr-4">
@@ -25,9 +27,11 @@ const ListProjectsPage = () => {
         </CustomTitle>
         </div>
 
-        <div className="flex flex-wrap gap-10 justify-center py-10 mx-2">
+      <div className="flex flex-wrap gap-10 justify-center py-10 mx-2">
             {mock.map((project) => (
-              <CardProject key={project.id} project={project} />
+              <Suspense fallback={<Loading />} key={project.id}>
+                <CardProject key={project.id} project={project} />
+              </Suspense>
             )).reverse()}
       </div>
       <ScrollToTop/>
