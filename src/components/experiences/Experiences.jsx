@@ -18,13 +18,6 @@ const Experiences = () => {
       <MyExperiences />
     </Card>
 
-    {/* <div className="mt-10">
-      <MyExperiences />
-    </div> */}
-
-      
-
-
     </div>
   )
 }
