@@ -16,7 +16,7 @@ const AboutMe = () => {
       <Card
         theme={{
           root: {
-            base: "flex rounded-lg border border-gray-200 bg-light shadow-md dark:border-gray-700 dark:bg-gray-800 p-4 max-sm:p-3",
+            base: "flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 p-4 max-sm:p-3",
             children: "flex h-full flex-col gap-4 p-2",
             horizontal: {
               off: "flex-col",
