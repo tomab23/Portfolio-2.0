@@ -117,7 +117,7 @@ const ProjectPage = () => {
         </div>
         {/* DIIF IMG PORTFOLIO 2.0 - Portfolio 1.0 */}
         {project.name === "Portfolio 2.0" && (
-          <div className="w-[70rem] max-sm:w-[22.5rem] max-lg:w-[40rem] flex justify-center self-center">
+          <div className="w-[70rem] max-sm:w-[22.5rem] max-lg:w-[40rem] flex justify-center self-center border border-dark-dark">
             <ReactCompareImage
               leftImage={imgp2}
               leftImageAlt="Portfolio 2.0"
@@ -126,7 +126,6 @@ const ProjectPage = () => {
               rightImageAlt="Portfolio 1.0"
               rightImageLabel="Portfolio 1.0"
             />
-            ;
           </div>
         )}
         {/* IMG */}
@@ -139,7 +138,7 @@ const ProjectPage = () => {
             <img
               src={src}
               onClick={() => openImageViewer(index)}
-              className="h-[20rem] max-sm:h-[11rem] w-[40rem] max-sm:w-[22.5rem] cursor-pointer"
+              className="h-[20rem] max-sm:h-[11rem] w-[40rem] max-sm:w-[22.5rem] cursor-pointer hover:border dark:border-dark-dark border-dark"
               key={index}
               style={{ margin: "2px" }}
               alt=""
