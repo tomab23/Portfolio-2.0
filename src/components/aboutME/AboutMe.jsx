@@ -1,13 +1,11 @@
 import React from "react";
 import LinksAbout from "./LinksAbout";
 import { Card } from "flowbite-react";
-import { useNavigate } from "react-router";
 import MeFr from "./MeFr";
 import { useTranslation } from "react-i18next";
 import MeEn from "./MeEn";
 
 const AboutMe = () => {
-  const navigate = useNavigate();
   const { t, i18n } = useTranslation();
 
   return (

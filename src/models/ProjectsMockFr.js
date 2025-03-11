@@ -118,7 +118,7 @@ export const ProjectsMockFr = [
         description: "Voici la nouvelle version de mon portfolio.",
         more: "En voulant mettre à jour la première version, je me suis rendu compte que certaines choses avaient été mal mise en place, donc je suis repartie de zéro en reprenant la base visuelle de la 1.0, j'ai changé le design et retravaillé certaines fonctionnalités.",
         date: "2025",
-        github: "https://github.com/tomab23/Portfolio",
+        github: "https://github.com/tomab23/Portfolio-2.0",
         site: "",
         imgs: EnumImages.PortfolioV2,
         incoming: false

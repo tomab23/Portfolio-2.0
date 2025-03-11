@@ -116,7 +116,7 @@ export const ProjectsMockEn = [
         description: "Here you can see the new version of my portfolio.",
         more: "When I tried to update the first version, I realised that some things had been implemented incorrectly, so I started from scratch, taking the visual base of 1.0, changing the design and reworking some features.",
         date: "2025",
-        github: "https://github.com/tomab23/Portfolio",
+        github: "https://github.com/tomab23/Portfolio-2.0",
         site: "",
         imgs: EnumImages.PortfolioV2,
         incoming: false
