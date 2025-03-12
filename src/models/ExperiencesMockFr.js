@@ -54,7 +54,7 @@ export const ExperiencesMockFr = [
         id: 5,
         title: "Développeur Fullstack",
         entreprise : "Wild Code School",
-        date : "17 mars 2025 au 22 mai 2026",
+        date : "29 Septembre 2025 au 27 Novembre 2026",
         status: Status.Soon,
         work : true,
         resume : "Développeur d'applications javascript",
