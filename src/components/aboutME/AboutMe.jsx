@@ -32,7 +32,8 @@ const AboutMe = () => {
         horizontal
       >
         <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-          <span className="font-goodMatcha">{t("ABOUT.TITLE")}</span>{" "}{t('ABOUT.MORE')}
+          <span className="font-goodMatcha">{t("ABOUT.TITLE")}</span>
+          {/* {" "}{t('ABOUT.MORE')} */}
         </h5>
         {/* CHIDLREN */}
         {i18n.language === "fr" ? <MeFr /> : <MeEn />}
