@@ -48,16 +48,16 @@ export const ExperiencesMockEn = [
         stack : " Java JEE, Spring boot 3, React.js, Tailwind, MariaDb, Email.js, Stripe, Formik, Yup",
         info : "Fullstack development for route management, booking, credit management and the contact form."
     },
-    {
-        id: 5,
-        title: "Fullstack Developer",
-        entreprise : "Wild Code School",
-        date : "September 29, 2025 to November 27, 2026",
-        status: Status.Soon,
-        work : true,
-        resume : "Javascript application developer",
-        stack : "Javascript, Typescript, React.js, Node.js",
-        info : ""
-    },
+    // {
+    //     id: 5,
+    //     title: "Fullstack Developer",
+    //     entreprise : "Wild Code School",
+    //     date : "September 29, 2025 to November 27, 2026",
+    //     status: Status.Soon,
+    //     work : true,
+    //     resume : "Javascript application developer",
+    //     stack : "Javascript, Typescript, React.js, Node.js",
+    //     info : ""
+    // },
     
 ]
