@@ -12,6 +12,9 @@ const CardProject = ({ project }) => {
     const navigate = useNavigate();
     const { t } = useTranslation();
 
+    const date = project.date;
+    const dateView = date.substr(-4);
+
     const goProject = () => {
       navigate(`/project/${project.name}`, {
         state : {
@@ -30,9 +33,13 @@ const CardProject = ({ project }) => {
     imgAlt="Image du projet"
     imgSrc={project.imgs[0]}
   >
+    {/* NAME */}
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
       {project.name}
     </h5>
+    {/* DATE */}
+    <p className=" tracking-tight font-semibold text-gray-900 dark:text-white text-sm -my-2">{dateView}</p>
+    {/* RESUME */}
     <p className="font-normal text-sm text-gray-700 dark:text-gray-400 truncate ..." title={project.resume}>
      {project.resume}
     </p>

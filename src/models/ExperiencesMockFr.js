@@ -50,16 +50,16 @@ export const ExperiencesMockFr = [
         info : "Développement fullstack sur la gestion des trajets, sur les réservations, sur la gestions des crédits et sur le formulaire de contact."
 
     },
-    {
-        id: 5,
-        title: "Développeur Fullstack",
-        entreprise : "Wild Code School",
-        date : "29 Septembre 2025 au 27 Novembre 2026",
-        status: Status.Soon,
-        work : true,
-        resume : "Développeur d'applications javascript",
-        stack : "Javascript, Typescript, React.js, Node.js",
-        info : ""
-    },
+    // {
+    //     id: 5,
+    //     title: "Développeur Fullstack",
+    //     entreprise : "Wild Code School",
+    //     date : "29 Septembre 2025 au 27 Novembre 2026",
+    //     status: Status.Soon,
+    //     work : true,
+    //     resume : "Développeur d'applications javascript",
+    //     stack : "Javascript, Typescript, React.js, Node.js",
+    //     info : ""
+    // },
     
 ]
