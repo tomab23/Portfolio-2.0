@@ -4,7 +4,7 @@ const Place = () => {
   return (
     <div className='flex gap-2'>
     <House className="w-6 h-6" />
-    <p>France, Lille</p>
+    <p className="font-semibold">France, Lille</p>
   </div>
   )
 }
