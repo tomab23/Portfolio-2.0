@@ -1,7 +1,7 @@
 import {
   DarkThemeToggle,
   Navbar,
-  NavbarBrand,
+  // NavbarBrand,
   NavbarCollapse,
   NavbarLink,
   NavbarToggle,
@@ -18,14 +18,22 @@ const Header = ({ home }) => {
 
   return (
     <Navbar fluid className="dark:bg-dark-dark sticky top-0 z-50 bg-light">
-      <NavbarBrand className="font-devgothic">
+      <div className="font-devgothic">
+        {home ? (
         <h1
-          className={`self-center whitespace-nowrap text-3xl max-lg:text-xl max-md:text-2xl font-semibold hover:scale-y-125 dark:text-white ${!home ? "cursor-pointer" : "cursor-default"}`}
+        className={`self-center whitespace-nowrap text-3xl max-lg:text-xl max-md:text-2xl font-semibold hover:scale-y-125 dark:text-white cursor-default`}
+      >
+        {text}
+      </h1>
+        ) : (
+          <h1
+          className={`self-center whitespace-nowrap text-3xl max-lg:text-xl max-md:text-2xl font-semibold hover:scale-y-125 dark:text-white cursor-pointer`}
           onClick={() => navigate("/")}
         >
           {text}
         </h1>
-      </NavbarBrand>
+        )}
+      </div>
       <div className="flex md:order-2 ">
         <div className="flex gap-5 max-sm:gap-2 items-center">
           <DropdownTranslate />
