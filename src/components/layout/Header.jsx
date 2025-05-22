@@ -12,7 +12,7 @@ import { useTranslation } from "react-i18next";
 
 const Header = ({ home }) => {
   const navigate = useNavigate();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const text = "<Thomas Bartier />";
 
@@ -44,7 +44,7 @@ const Header = ({ home }) => {
       {home && (
         <NavbarCollapse className="font-devgothic">
           <NavbarLink className="text-2xl max-lg:text-xl" href="#about">{t("TITLE.ABOUT")}</NavbarLink>
-          <NavbarLink className="text-2xl max-lg:text-xl" href="#skills">{t("TITLE.SKILLS")}</NavbarLink>
+          <NavbarLink className="text-2xl max-lg:text-xl" href="#skills">{i18n.language === "fr" ? "Competences" : "Skills"}</NavbarLink>
           <NavbarLink className="text-2xl max-lg:text-xl" href="#projects">{t("TITLE.PROJECTS")}</NavbarLink>
           <NavbarLink className="text-2xl max-lg:text-xl" href="#exp">{t("TITLE.EXP")}</NavbarLink>
           <NavbarLink className="text-2xl max-lg:text-xl" href="#contact">Contact</NavbarLink>

@@ -12,7 +12,7 @@ const MeFr = () => {
       Passionné par le développement et la technologie, je suis à la recherche de nouvelles opportunités pour enrichir mon expérience. Actuellement, sur des petits projets personnels, j'apprends aussi l'utilisation d'Unreal Engine.
     </p>
     <p> 
-      N'hésitez pas à me contacter pour plus d'information. <br/>Je suis <span className='dark:text-available-light text-available-dark font-bold'>disponible immédiatement</span>.
+      N'hésitez pas à me contacter pour plus d'informations. <br/>Je suis <span className='dark:text-available-light text-available-dark font-bold'>disponible immédiatement</span>.
     </p>
     <Place />
     </div>
