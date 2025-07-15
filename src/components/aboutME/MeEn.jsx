@@ -9,7 +9,7 @@ const MeEn = () => {
     My name is <b>Thomas Bartier</b>, a Junior Developer. I graduated as an <b>Application Developer Designer</b>. During my education I mainly worked with React.js and Java.
     </p>
     <p>
-    Passionate about development and technology, I'm looking for new opportunities to enrich my experience. I'm currently working on some small personal projects and I'm also learning how to use Unreal Engine.
+    Passionate about development and technology, I'm looking for new opportunities to enrich my experience. I'm currently working on some small personal projects and I'm also learning how to use Supabase.
     </p>
     <p>
     Don't hesitate to contact me for more information.<br/>
