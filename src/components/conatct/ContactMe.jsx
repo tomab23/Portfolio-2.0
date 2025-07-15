@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import CustomTitle from "../custom/CustomTitle";
 import { Toaster, toast } from 'sonner'
 import { X } from 'lucide-react';
@@ -19,17 +19,17 @@ const ContactMe = () => {
 
   const toastSuccess = () => {
     toast.success(t("CONTACT.SUCCESS"), {
-      cancel: {
-        label: <X />
-      },
+      // cancel: {
+      //   label: <X />
+      // },
     })
   }
 
   const toastCancel = () => {
-    toast.cancel(t("CONTACT.ERROR"), {
-      cancel: {
-        label: <X />
-      },
+    toast.error(t("CONTACT.ERROR"), {
+      // cancel: {
+      //   label: <X />
+      // },
     })
   }
 
@@ -46,9 +46,10 @@ const ContactMe = () => {
   });
 
   // Email parameters email.js to contact
-  const yourServiceId = "service_ywrarm8";
-  const yourTemplateId = "template_ngcvdt8";
-  const yourPublicId = "hIBcrSEQcNVxZU0im";
+  const yourServiceId =  import.meta.env.VITE_EMAILJS_SERVICE;
+  const yourTemplateId =  import.meta.env.VITE_EMAILJS_TEMPLATE;
+  const yourPublicId =  import.meta.env.VITE_EMAILJS_PUBLIC;
+
 
   const sendMail = (values, { resetForm }) => {
     setLoading(true);
@@ -66,11 +67,6 @@ const ContactMe = () => {
         // resetForm();
     }
     )
-      // .catch(() => {
-      //   toastCancel();
-      //   setLoading(false);
-      //   resetForm();
-      // });
   };
 
 

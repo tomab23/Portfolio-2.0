@@ -30,11 +30,15 @@ const AboutMe = () => {
         className="max-w-sm"
         imgSrc="/dev.svg"
         horizontal
+        imgProps={{
+          loading: "lazy",
+          alt: "Illustration by Storyset",
+        }}
       >
-        <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-          <span className="font-goodMatcha">{t("ABOUT.TITLE")}</span>
-          {/* {" "}{t('ABOUT.MORE')} */}
-        </h5>
+        <h1 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+          <span className="font-goodMatcha">{t("ABOUT.TITLE")} </span>{" "}
+          {t("ABOUT.MORE")}
+        </h1>
         {/* CHIDLREN */}
         {i18n.language === "fr" ? <MeFr /> : <MeEn />}
       </Card>
