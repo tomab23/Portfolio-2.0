@@ -35,7 +35,7 @@ const CardProject = ({ project }) => {
   >
     {/* NAME */}
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      {project.name}
+      {project.name} {project.incoming && <span className="text-lg italic">({t("EXP.SOON")})</span>}
     </h5>
     {/* DATE */}
     <p className=" tracking-tight font-semibold text-gray-900 dark:text-white text-sm -my-2">{dateView}</p>
