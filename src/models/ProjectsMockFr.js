@@ -129,7 +129,7 @@ export const ProjectsMockFr = [
         resume: "Gerer ses candidatures",
         badge: ["React js", "Typescript", "Supabase"],
         tech: ["React js", "Tailwindcss", "Shadcn/ui", "Typescript", "Supabase", "I18Next"],
-        outil:["Visual Studio Code"],
+        outil:["Visual Studio Code", "Trello"],
         description: "Application pour gerer vos candidatures.",
         more: "A venir",
         date: "2025",

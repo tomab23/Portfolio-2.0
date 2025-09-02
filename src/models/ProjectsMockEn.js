@@ -127,7 +127,7 @@ export const ProjectsMockEn = [
         resume: "Manage your applications",
         badge: ["React js", "Typescript", "Supabase"],
         tech: ["React js", "Tailwindcss", "Shadcn/ui", "Typescript", "Supabase", "I18Next"],
-        outil:["Visual Studio Code"],
+        outil:["Visual Studio Code", "Trello"],
         description: "Application to manage your applications.",
         more: "Coming soon",
         date: "2025",
