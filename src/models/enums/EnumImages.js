@@ -20,6 +20,7 @@ import GsWainting from "../../assets/images/projects/GamesSearch/gs-waiting.png"
 import p2homed from "../../assets/images/projects/Portfolio2/portfolio_2_home_d.png"
 import p2home from "../../assets/images/projects/Portfolio2/portfolio_2_home.png"
 import p2projects from "../../assets/images/projects/Portfolio2/portfolio_2_projects.png"
+import soon from "../../assets/images/soon.svg"
 
 export const EnumImages = {
 	Treizzer : [treizzer, treizzerAlbum, treizzerDetail, treizzerSong, treizzerShop],
@@ -29,5 +30,6 @@ export const EnumImages = {
 	Codrive : [codrive, codriveAdmin],
 	DodgeGame : [dodgeThem],
 	Portfolio: [portfolio, portfolio2, portfolio3],
-	PortfolioV2 : [p2homed, p2home, p2projects]
+	PortfolioV2 : [p2homed, p2home, p2projects],
+	Soon : [soon]
 }

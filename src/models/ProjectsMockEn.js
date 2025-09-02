@@ -121,6 +121,21 @@ export const ProjectsMockEn = [
         imgs: EnumImages.PortfolioV2,
         incoming: false
     },
+    {
+        id: 9,
+        name: "Candidash",
+        resume: "Manage your applications",
+        badge: ["React js", "Typescript", "Supabase"],
+        tech: ["React js", "Tailwindcss", "Shadcn/ui", "Typescript", "Supabase", "I18Next"],
+        outil:["Visual Studio Code", "Trello"],
+        description: "Application to manage your applications.",
+        more: "Coming soon",
+        date: "2025",
+        github: "https://github.com/tomab23/candidash",
+        site: "",
+        imgs: EnumImages.Soon,
+        incoming: true
+    },
     // {
     //     id: 8,
     //     name: "GamesSearch",

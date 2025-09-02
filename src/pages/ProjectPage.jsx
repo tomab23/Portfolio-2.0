@@ -129,6 +129,7 @@ const ProjectPage = () => {
           </div>
         )}
         {/* IMG */}
+{!project.incoming && 
         <div
           className={`flex flex-wrap max-lg:gap-3 gap-10 mt-5 ${
             isViewerOpen && "z-50"
@@ -155,6 +156,7 @@ const ProjectPage = () => {
             />
           )}
         </div>
+}
       </div>
       {!isViewerOpen && <ScrollToTop />}
     </div>
