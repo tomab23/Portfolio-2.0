@@ -136,21 +136,21 @@ export const ProjectsMockEn = [
         imgs: EnumImages.Soon,
         incoming: true
     },
-    {
-        id: 10,
-        name: "ComicsBox",
-        resume: "Managing your comic books",
-        badge: ["React js", "Typescript", "Supabase"],
-        tech: ["React js", "Tailwindcss", "Shadcn/ui", "Typescript", "Supabase", "I18Next"],
-        outil:["Visual Studio Code"],
-        description: "Application for managing your comic book collection.",
-        more: "Coming soon",
-        date: "2025",
-        github: "https://github.com/tomab23/ComicsBox",
-        site: "",
-        imgs: EnumImages.Soon,
-        incoming: true
-    },
+    // {
+    //     id: 10,
+    //     name: "ComicsBox",
+    //     resume: "Managing your comic books",
+    //     badge: ["React js", "Typescript", "Supabase"],
+    //     tech: ["React js", "Tailwindcss", "Shadcn/ui", "Typescript", "Supabase", "I18Next"],
+    //     outil:["Visual Studio Code"],
+    //     description: "Application for managing your comic book collection.",
+    //     more: "Coming soon",
+    //     date: "2025",
+    //     github: "https://github.com/tomab23/ComicsBox",
+    //     site: "",
+    //     imgs: EnumImages.Soon,
+    //     incoming: true
+    // },
     // {
     //     id: 8,
     //     name: "GamesSearch",
