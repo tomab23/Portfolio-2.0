@@ -129,10 +129,10 @@ export const ProjectsMockEn = [
         tech: ["React js", "Tailwindcss", "Shadcn/ui", "Typescript", "Supabase", "I18Next"],
         outil:["Visual Studio Code", "Trello"],
         description: "Application to manage your applications.",
-        more: "Coming soon",
+        more: "Currently being tested",
         date: "2025",
         github: "https://github.com/tomab23/candidash",
-        site: "",
+        site: "https://candidash.netlify.app/",
         imgs: EnumImages.Soon,
         incoming: true
     },
