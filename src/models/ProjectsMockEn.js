@@ -136,6 +136,21 @@ export const ProjectsMockEn = [
         imgs: EnumImages.Soon,
         incoming: true
     },
+            {
+        id: 10,
+        name: "Strivelog",
+        resume: "Training tracking",
+        badge: ["React js", "Typescript", "Supabase"],
+        tech: ["React js", "Tailwindcss", "Shadcn/ui", "Typescript", "Supabase", "I18Next"],
+        outil:["Visual Studio Code", "Trello"],
+        description: "App for tracking your workouts. Add your workout data, view your statistics, and track your progress.",
+        more: "Currently under development...",
+        date: "2025",
+        github: "https://github.com/tomab23/candidash",
+        site: "",
+        imgs: EnumImages.Soon,
+        incoming: true
+    },
     // {
     //     id: 10,
     //     name: "ComicsBox",
