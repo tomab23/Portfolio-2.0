@@ -8,11 +8,11 @@ const DropdownTranslate = () => {
   const { i18n } = useTranslation();
   
   const langueEn = () => {
-    i18n.changeLanguage("en")
+    i18n.changeLanguage("en-GB")
   }
 
   const langueFr = () => {
-    i18n.changeLanguage("fr")
+    i18n.changeLanguage("fr-FR")
   }
 
   return (

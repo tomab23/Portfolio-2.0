@@ -13,7 +13,7 @@ import Loading from "../components/loader/Loading";
 const ListProjectsPage = () => {
 
     const { t, i18n } = useTranslation();
-    const mock = i18n.language === "fr" ?  ProjectsMockFr : ProjectsMockEn;
+    const mock = i18n.language === "fr-FR" ?  ProjectsMockFr : ProjectsMockEn;
 
 
   return (

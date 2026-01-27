@@ -8,7 +8,7 @@ import { ProjectsMockEn } from "../../models/ProjectsMockEn";
 const LastProjects = () => {
 
   const { t, i18n } = useTranslation();
-  const mock = i18n.language === "fr" ?  ProjectsMockFr : ProjectsMockEn;
+  const mock = i18n.language === "fr-FR" ?  ProjectsMockFr : ProjectsMockEn;
 
   return (
     <div id="projects" className="flex flex-col gap-10 max-sm:gap-5">

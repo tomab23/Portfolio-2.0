@@ -20,7 +20,7 @@ const ProjectPage = () => {
   const { t, i18n } = useTranslation();
 
   const projectstList =
-    i18n.language === "fr" ? ProjectsMockFr : ProjectsMockEn;
+    i18n.language === "fr-FR" ? ProjectsMockFr : ProjectsMockEn;
 
   const [project, setProject] = useState({
     id: null,
