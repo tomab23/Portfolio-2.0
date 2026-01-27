@@ -28,19 +28,22 @@ const AboutMe = () => {
           },
         }}
         className="max-w-sm"
-        imgSrc="/dev.svg"
         horizontal
-        imgProps={{
-          loading: "lazy",
-          alt: "Illustration by Storyset",
-        }}
+        // imgSrc="/dev.svg"
+        // imgProps={{
+        //   loading: "lazy",
+        //   alt: "Illustration by Storyset",
+        // }}
+        renderImage={() => <img  src="/dev.svg" width={280} alt="Illustration by Storyset" className="" loading="lazy" />}
       >
         <h1 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
           <span className="font-goodMatcha">{t("ABOUT.TITLE")} </span>{" "}
           {t("ABOUT.MORE")}
         </h1>
         {/* CHIDLREN */}
-        {i18n.language === "fr-FR" ? <MeFr /> : <MeEn />}
+        <div className="pr-1">
+          {i18n.language === "fr-FR" ? <MeFr /> : <MeEn />}
+        </div>
       </Card>
 
       <LinksAbout />
