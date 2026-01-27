@@ -40,7 +40,7 @@ const AboutMe = () => {
           {t("ABOUT.MORE")}
         </h1>
         {/* CHIDLREN */}
-        {i18n.language === "fr" ? <MeFr /> : <MeEn />}
+        {i18n.language === "fr-FR" ? <MeFr /> : <MeEn />}
       </Card>
 
       <LinksAbout />

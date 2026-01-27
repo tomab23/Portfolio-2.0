@@ -15,8 +15,8 @@ const CvPage = () => {
 
   const { t, i18n } = useTranslation();
 
-  const cv_img = i18n.language === "fr" ? cv_fr : cv_en;
-  const pdf = i18n.language === "fr" ? pdf_fr : pdf_en;
+  const cv_img = i18n.language === "fr-FR" ? cv_fr : cv_en;
+  const pdf = i18n.language === "fr-FR" ? pdf_fr : pdf_en;
 
   
   return (

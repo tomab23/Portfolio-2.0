@@ -7,7 +7,7 @@ const MyExperiences = () => {
 
     const { i18n } = useTranslation();
 
-    const mock = i18n.language === "fr" ? ExperiencesMockFr : ExperiencesMockEn;
+    const mock = i18n.language === "fr-FR" ? ExperiencesMockFr : ExperiencesMockEn;
 
   return (
     <ol className="relative border-l border-gray-200 dark:border-gray-700">

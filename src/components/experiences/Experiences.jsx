@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next"
 
 const Experiences = () => {
   const { i18n } = useTranslation();
-  const title = i18n.language === "fr" ?  "Expériences" : "Experiences";
+  const title = i18n.language === "fr-FR" ?  "Expériences" : "Experiences";
 
   return (
     <div id="exp">

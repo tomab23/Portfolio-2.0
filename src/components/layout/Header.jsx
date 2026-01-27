@@ -44,7 +44,7 @@ const Header = ({ home }) => {
       {home && (
         <NavbarCollapse className="font-devgothic">
           <NavbarLink className="text-2xl max-lg:text-xl" href="#about">{t("TITLE.ABOUT")}</NavbarLink>
-          <NavbarLink className="text-2xl max-lg:text-xl" href="#skills">{i18n.language === "fr" ? "Competences" : "Skills"}</NavbarLink>
+          <NavbarLink className="text-2xl max-lg:text-xl" href="#skills">{i18n.language === "fr-FR" ? "Competences" : "Skills"}</NavbarLink>
           <NavbarLink className="text-2xl max-lg:text-xl" href="#projects">{t("TITLE.PROJECTS")}</NavbarLink>
           <NavbarLink className="text-2xl max-lg:text-xl" href="#exp">{t("TITLE.EXP")}</NavbarLink>
           <NavbarLink className="text-2xl max-lg:text-xl" href="#contact">Contact</NavbarLink>
