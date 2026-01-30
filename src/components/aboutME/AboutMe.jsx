@@ -38,7 +38,7 @@ const AboutMe = () => {
       >
         <h1 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
           <span className="font-goodMatcha">{t("ABOUT.TITLE")} </span>{" "}
-          {t("ABOUT.MORE")}
+          {/* {t("ABOUT.MORE")} */}
         </h1>
         {/* CHIDLREN */}
         <div className="pr-1">

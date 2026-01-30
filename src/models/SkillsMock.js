@@ -9,6 +9,7 @@ import scrum from "../assets/images/stack/scrum.png"
 import formik from "../assets/images/stack/formik.svg"
 import mysql from "../assets/images/stack/mysql-logo.svg"
 import native from "../assets/images/stack/react-native-1.svg"
+import supabase from '../assets/images/stack/supabase.svg'
 
 export const SkillsMock = [
     {
@@ -87,6 +88,13 @@ export const SkillsMock = [
         title : "Approche agile Scrum",
         color: "",
         img : scrum,
+    },
+    {
+        id: 12,
+        name: "Supabase",
+        title : "Supabase",
+        color: "",
+        img : supabase,
     },
 
 ]
