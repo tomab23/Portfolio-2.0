@@ -138,7 +138,7 @@ export const ProjectsMockEn = [
     },
      {
         id: 10,
-        name: "GamesCollect",
+        name: "MonBasketball",
         resume: "Track your basketball games and practices",
         badge: ["React js", "Typescript", "Supabase"],
         tech: ["React js", "Tailwindcss", "Shadcn/ui", "Typescript", "Supabase"],
