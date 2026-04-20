@@ -136,21 +136,36 @@ export const ProjectsMockEn = [
         imgs: EnumImages.Soon,
         incoming: true
     },
-                {
+     {
         id: 10,
         name: "GamesCollect",
-        resume: "Library of his video games",
+        resume: "Track your basketball games and practices",
         badge: ["React js", "Typescript", "Supabase"],
-        tech: ["React js", "Tailwindcss", "Shadcn/ui", "Typescript", "Supabase", "I18Next"],
+        tech: ["React js", "Tailwindcss", "Shadcn/ui", "Typescript", "Supabase"],
         outil:["Visual Studio Code"],
-        description: "Application to view your games with statistics",
+        description: "Track your basketball games and practices.",
         more: "Currently under development...",
         date: "2026",
-        github: "https://github.com/tomab23/GamesCollect",
-        site: "",
+        github: "https://github.com/tomab23/MonBasketball",
+        site: "https://monbasketball.netlify.app/",
         imgs: EnumImages.Soon,
         incoming: true
     },
+    //             {
+    //     id: 10,
+    //     name: "GamesCollect",
+    //     resume: "Library of his video games",
+    //     badge: ["React js", "Typescript", "Supabase"],
+    //     tech: ["React js", "Tailwindcss", "Shadcn/ui", "Typescript", "Supabase", "I18Next"],
+    //     outil:["Visual Studio Code"],
+    //     description: "Application to view your games with statistics",
+    //     more: "Currently under development...",
+    //     date: "2026",
+    //     github: "https://github.com/tomab23/GamesCollect",
+    //     site: "",
+    //     imgs: EnumImages.Soon,
+    //     incoming: true
+    // },
     //         {
     //     id: 10,
     //     name: "Strivelog",
