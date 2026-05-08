@@ -102,7 +102,7 @@ export const ProjectsMockEn = [
         more: "The aim was to create a portfolio from scratch, with a few features such as email contact via a form, a choice of language (French - English) and the addition of a dark mode with a choice of whether to use it or not, all while being responsive. I also had fun adding version notes so I could see the status of old and future updates.",
         date: "2023 - 2024",
         github: "https://github.com/tomab23/Portfolio",
-        site: "https://thomasbartier-oldv.netlify.app/",
+        site: "",
         imgs: EnumImages.Portfolio,
         incoming: false
     },
@@ -148,6 +148,21 @@ export const ProjectsMockEn = [
         date: "2026",
         github: "https://github.com/tomab23/MonBasketball",
         site: "https://monbasketball.netlify.app/",
+        imgs: EnumImages.Soon,
+        incoming: true
+    },
+    {
+        id: 11,
+        name: "Strivlog",
+        resume: "Training tracking",
+        badge: ["React js", "Typescript", "Supabase"],
+        tech: ["React js", "Tailwindcss", "Shadcn/ui", "Typescript", "Supabase", "I18Next"],
+        outil:["Visual Studio Code", "Trello"],
+        description: "App for tracking your workouts. Add your workout data, view your statistics, and track your progress. For running and cycling",
+        more: "Currently under development...",
+        date: "2026",
+        github: "https://github.com/tomab23/strivlog",
+        site: "",
         imgs: EnumImages.Soon,
         incoming: true
     },
